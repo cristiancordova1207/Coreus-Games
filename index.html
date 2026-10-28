@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Coreus Games · Juegos interactivos para TikTok LIVE</title>
+<meta name="description" content="Juegos interactivos para tus directos de TikTok: Roblox Fashion Show, Roblox Dance y Snake Tik. Tu chat y tus regalos controlan el juego. Para Windows.">
+<meta property="og:title" content="Coreus Games"><meta property="og:description" content="Juegos interactivos para tus TikTok LIVE: tu chat y tus regalos juegan."><meta property="og:image" content="img/fashion/pasarela.webp">
+<link rel="icon" href="img/fashion/logo.png">
+<link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+<div class="blobs"><i></i><i></i><i></i></div>
+
+<nav class="nav">
+  <a class="brand" href="#top"><span class="mark" data-tt></span><span>COREUS GAMES</span></a>
+  <div class="links"><a href="#games" data-t="navGames"></a><a href="#how" data-t="navHow"></a><a href="#gifts" data-t="navGifts"></a><a href="#faq" data-t="navFaq"></a></div>
+  <div class="grow"></div>
+  <select id="lang" class="lang" aria-label="Idioma / Language"></select>
+  <a class="btn btn-primary btn-sm jelly" href="#games" data-t="navGames"></a>
+</nav>
+
+<header class="wrap hero" id="top">
+  <div class="reveal">
+    <div class="tt-badge"><span class="tt" data-tt></span><span data-t="ttBadge"></span><span class="gifts-row">🌹 💌 🍩</span></div>
+    <h1 data-t-html="heroTitle"></h1>
+    <p class="lead" data-t="heroLead"></p>
+    <div class="cta">
+      <a class="btn btn-primary btn-lg jelly" href="#games" data-t="seeGames"></a>
+      <a class="btn btn-discord btn-lg jelly" data-discord target="_blank" rel="noopener"><span data-discord-ic></span><span data-t="joinDiscord"></span></a>
+    </div>
+    <div class="meta"><span data-t="metaWin"></span><span data-t="metaAuto"></span><span data-t="metaLang"></span></div>
+  </div>
+  <div class="reveal collage">
+    <div class="shot a"><img src="img/fashion/pasarela.webp" alt="Roblox Fashion Show"><span class="label">👗 Roblox Fashion Show</span></div>
+    <div class="shot b"><img src="img/dance/fiesta.webp" alt="Roblox Dance"><span class="label">💃 Roblox Dance</span></div>
+    <div class="shot c"><img src="img/snake/g-bombs.webp" alt="Snake Tik"><span class="label">🐍 Snake Tik</span></div>
+    <div class="tt-big" data-tt></div>
+    <span class="float-gift" style="left:40%;bottom:30%">🌹</span>
+    <span class="float-gift" style="left:58%;bottom:18%;animation-delay:-1.5s">💌</span>
+    <span class="float-gift" style="left:22%;bottom:40%;animation-delay:-3s">🍩</span>
+  </div>
+</header>
+
+<section class="wrap" id="games">
+  <div class="center reveal"><span class="eyebrow" data-t="gamesEyebrow"></span><h2 data-t="gamesTitle"></h2><p class="lead" data-t="gamesLead"></p></div>
+  <div class="games" id="gameCards"></div>
+</section>
+
+<section class="wrap" id="how">
+  <div class="center reveal"><span class="eyebrow" data-t="howEyebrow"></span><h2 data-t="howTitle"></h2><p class="lead" data-t="howLead"></p></div>
+  <div class="steps">
+    <div class="step reveal"><div class="num">1</div><h3 data-t="h1t"></h3><p data-t="h1p"></p></div>
+    <div class="step reveal"><div class="num">2</div><h3 data-t="h2t"></h3><p data-t="h2p"></p></div>
+    <div class="step reveal"><div class="num">3</div><h3 data-t="h3t"></h3><p data-t="h3p"></p></div>
+    <div class="step reveal"><div class="num">4</div><h3 data-t="h4t"></h3><p data-t="h4p"></p></div>
+  </div>
+</section>
+
+<section class="wrap" id="gifts">
+  <div class="center reveal"><span class="eyebrow" data-t="giftsEyebrow"></span><h2 data-t-html="giftsTitle"></h2><p class="lead" data-t="giftsLead"></p></div>
+  <div class="gifts" id="giftCards"></div>
+</section>
+
+<section class="wrap" id="faq">
+  <div class="center reveal"><span class="eyebrow" data-t="faqEyebrow"></span><h2 data-t="faqTitle"></h2></div>
+  <div class="faq">
+    <details class="reveal"><summary data-t="q1"></summary><p data-t="a1"></p></details>
+    <details class="reveal"><summary data-t="q2"></summary><p data-t="a2"></p></details>
+    <details class="reveal"><summary data-t="q3"></summary><p data-t="a3"></p></details>
+    <details class="reveal"><summary data-t="q4"></summary><p data-t="a4"></p></details>
+    <details class="reveal"><summary data-t="q5"></summary><p><span data-t="a5"></span> <a data-discord target="_blank" rel="noopener">discord.gg/K6TCjKAyds</a></p></details>
+  </div>
+</section>
+
+<div class="wrap"><footer><span data-t="footer"></span><span><a data-discord target="_blank" rel="noopener">💬 Discord</a></span></footer></div>
+
+<script src="data.js?v=1"></script>
+<script src="main.js?v=1"></script>
+</body>
+</html>
