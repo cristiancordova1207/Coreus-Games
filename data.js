@@ -6,8 +6,8 @@ window.GAMES = [
   {
     id: 'fashion', name: 'Roblox Fashion Show', logo: 'img/fashion/logo.png', kind: { es: '🎮 Roblox', en: '🎮 Roblox' },
     shots: ['img/fashion/pasarela.webp', 'img/fashion/cinematico.webp', 'img/fashion/fiesta-gigante.webp'],
-    download: 'https://github.com/cristiancordova1207/TikTok-Fashion-Releases/raw/main/Roblox-Fashion-Show.exe',
-    latest: 'https://raw.githubusercontent.com/cristiancordova1207/TikTok-Fashion-Releases/main/latest.json',
+    download: 'https://github.com/cristiancordova1207/Fashion-Show-Realease/raw/main/Roblox-Fashion-Show.exe',
+    latest: 'https://raw.githubusercontent.com/cristiancordova1207/Fashion-Show-Realease/main/latest.json',
     play: 'https://www.roblox.com/games/84658830134637',
     es: {
       tag: 'Tu chat desfila en una pasarela de moda',
